@@ -1,5 +1,6 @@
 "use strict";
 
+//Завдання 1
 const str = "Привіт";
 const num = 123;
 const flag = true;
@@ -10,6 +11,7 @@ console.log(typeof num);
 console.log(typeof flag);
 console.log(typeof txt);
 
+//Завдання 2
 const a1 = "Слава Україні!";
 let b1 = "Героям Слава!";
 
