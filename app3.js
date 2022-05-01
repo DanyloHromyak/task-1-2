@@ -38,18 +38,16 @@ console.log(email, validEmail, emailLength);
 const my = "My";
 const name = "name";
 const is = "is";
-const fullName = `${my} ${name} ${is} Viktor`;
-console.log(fullName)
-// Або: 
+const fullName = `${my} ${name} ${is} Danylo`;
+console.log(fullName);
+// Або:
 // const my = "My";
 // const name = "name";
 // const is = "is";
 // const fullName = my + " " + name + " " + "Viktor";
-// console.log(fullName)
+// console.log(fullName);
 
 //Завдання 8
 const userName = prompt("Як вас звати?");
 const payment = 300;
-alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`); 
-
-
+alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
