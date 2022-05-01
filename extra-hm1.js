@@ -1,5 +1,5 @@
-const username = prompt("Створіть нікнейм");
-const password = prompt("Створіть пароль");
+const username = prompt("Введіть нікнейм");
+const password = prompt("Введіть пароль");
 
 const adminUsername = "ADMIN";
 const adminPassword = "PASSWORD";
