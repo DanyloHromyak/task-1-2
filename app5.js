@@ -24,11 +24,10 @@ while (num <= 28) {
 }
 
 // Завдання 4
-for (let name = ``; name.length < 6; name = prompt("ім'я твого супергероя💀")) {
-  if (true) {
-    console.log(name);
-    continue;
-  } else {
-    break;
-  }
+let name = ``;
+name = prompt("ім'я твого супергероя💀");
+
+while (name.length < 6) {
+  console.log(name);
+  name = prompt("ім'я твого супергероя💀");
 }
