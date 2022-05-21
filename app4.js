@@ -1,13 +1,12 @@
 "use strict";
 
 //Завдання 1
-const number = prompt("Введіть число");
+const number = +prompt("Введіть число");
 if (55 <= number && number <= 99) {
   console.log("Число потрапляє в діапазон");
 } else if (55 >= number || number >= 99) {
   console.log("Число не потрапляє в діапазон");
-}
-else {
+} else {
   console.log("Це не число!");
 }
 
